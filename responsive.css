@@ -144,8 +144,23 @@ html, body {
 .popular-sections span { width: 135px; font-size: 12px; }
 }
 
-/* 360 - 480 */
+/* 412 - 479 */
 @media screen and (max-width: 479px) {
+#wrapper .header { height: 280px; margin-bottom: 10px; }
+.h_left a { width: 100%;  }
+.mode { margin: 2% 0%; width: 100%; font-size: 16px; line-height: 18px; }
+.mode span { font-size: 18px; }  
+.h_phones { height: 45px; margin: 1% 0 0 20%; padding-left: 15%; font-size: 18px; line-height: 24px;}
+.h_phones:hover { height: 45px; margin: 1% 0 0 20%; padding-left: 15%; font-size: 18px; line-height: 24px; }
+
+.shop-cart { margin: 5% 0 0 0 !important; }
+.shop-cart-head { padding: 0px 0 0 45px !important; }
+.shop-cart-head a { padding: 0px 0px 50px 45px !important; }
+#cartInner { margin-left: 20px !important; }
+}
+
+/* 360 - 411 */
+@media screen and (max-width: 411px) {
 #wrapper .header { height: 280px; }
 .h_left a { width: 100%;  }
 .mode { margin: 2% 0%; width: 100%; font-size: 16px; line-height: 18px; }
@@ -154,9 +169,10 @@ html, body {
 .h_phones:hover { height: 45px; margin: 1% 0 0 20%; padding-left: 15%; font-size: 18px; line-height: 24px; }
 .c_links { display: block; }
 .c_left {margin: 7% 1% 0 1%;}
-.shop-cart { margin: 5% 0 0 12%; }
+.shop-cart { margin: 5% 0 0 14% !important; }
+.shop-cart-head { padding: 0px 0 0 0px !important; }
 .shop-cart-head a { padding: 0px 0px 45px 45px !important; }
-#cartInner { font-size: 18px; line-height: 24px; margin-left: 92px !important; margin-top: -58px !important; }
+#cartInner { font-size: 18px; line-height: 24px; margin-left: 90px !important; margin-top: -58px !important; }
 .sub_left .left_menu_site li a {  color: #FFF;  font-size: 14px; }
 .hide-menu-btn { width: 13%; }
 .popular-sections img { width: 110px; }
@@ -167,8 +183,8 @@ html, body {
 @media screen and (max-width: 359px) {
 .h_phones {  margin: 1% 0 0 17%; padding-left: 17%; }
 .h_phones:hover {  margin: 1% 0 0 17%; padding-left: 17% !important; }
-.shop-cart { margin: 5% 0 0 6%; }
-#cartInner { margin-left: 100px !important; }
+.shop-cart { margin: 5% 0 0 5% !important; }
+#cartInner { margin-left: 90px !important; }
 .hide-menu-btn { width: 15%; }
 
 .popular-sections img { width: 98px; }
